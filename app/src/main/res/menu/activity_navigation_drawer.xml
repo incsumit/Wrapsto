@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Main"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/view_order"
+            android:icon="@drawable/view_order"
+            android:title="View Order" />
+        <item
+            android:id="@+id/Clear_order"
+            android:icon="@drawable/clear_order"
+            android:title="Clear Order" />
+        <item
+            android:id="@+id/Checkout"
+            android:icon="@drawable/checkout"
+            android:title="Checkout" />
+    </group>
+
+    <item android:title="Navigate">
+        <menu>
+            <item
+                android:id="@+id/Wraps"
+                android:icon="@drawable/wrap"
+                android:title="Wraps" />
+            <item
+                android:id="@+id/Burger"
+                android:icon="@drawable/burger2"
+                android:title="Burger" />
+            <item
+                android:id="@+id/Dips"
+                android:icon="@drawable/fries"
+                android:title="Dips" />
+        </menu>
+    </item>
+
+</menu>

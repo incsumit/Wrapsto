@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Wrapsto, KIIT Road, Chandaka Industrial Estate, \nPatia, Bhubaneshwar, Odisha \n\n\nCall us at +91 8338079777 \n\nOr write to us at wrapsto.contact@gmail.com"
+        android:id="@+id/textView12"
+        android:textAlignment="center" />
+</LinearLayout>
